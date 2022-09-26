@@ -1,0 +1,13 @@
+prefix=/home/sankalp/Practice/DVC/DVC-NLP-Simple-usecase/env
+exec_prefix=/home/sankalp/Practice/DVC/DVC-NLP-Simple-usecase/env
+libdir=/home/sankalp/Practice/DVC/DVC-NLP-Simple-usecase/env/lib
+sharedlibdir=/home/sankalp/Practice/DVC/DVC-NLP-Simple-usecase/env/lib
+includedir=/home/sankalp/Practice/DVC/DVC-NLP-Simple-usecase/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.12
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
